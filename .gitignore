@@ -1,0 +1,20 @@
+# Автогенерируемые Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+
+# Специфичные для 2D, но не нужные в репо
+/.assetbundlecache
+/Assets/AssetStoreTools*
+/Assets/TextMesh*  # Если не используете TextMesh Pro
+
+# Файлы ОС и IDE
+.DS_Store
+*.sln
+*.suo
+*.userprefs
+.vscode/
+.idea/
