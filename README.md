@@ -1,5 +1,5 @@
 # 🔮 Amaze - Survival Maze Game
-## 🎯 todo after MVP
+## todo after MVP
 - [ ] Generating procedural mazes
 - [ ] Hunger/Thirst System
 - [ ] Dynamic change of day and night
@@ -10,8 +10,8 @@
 
 "Find the Exit. If It Exists." - by somebody
 
-## 🔥**MVP Scope**
-📍 **CORE COMPONENTS:**
+## 🔥**MVP**
+**CORE COMPONENTS:**
 1. **Two Playable Sections**:
     - `tutorial`
     - `winter`
@@ -33,45 +33,45 @@ Exit to **Winter** section by:
 2. Solving a **multi-path puzzle** with help from _"one strange gnome"_ 🙃.
 3. that's it
 
-### **🌨️Winter**
+### **Winter**
 
 _"i practically have no info to share yet :)"_
 
-**⚠️ Critical Mechanic**:
+**Core Mechanic**:
 - **Cold Damage** → Instantly kills player without `Potion of Cold Immunity`.
 
 
 ## **🧪POTION BREWING SYSTEM**
 
 Amaze has rather complicated potion making system. It goes through 3 stages.
-#### **🔪 Stage 1: Ingredient Processing**
+#### **Stage 1: Ingredient Processing**
 
 - **Location**: Alchemy Table
 - **Action**:  
     Take a raw ingredient (e.g., a frog) → Gut it → Extract specific part (e.g., heart).  
     _Example: "Frog → Processed → Frog Heart"_
 
-#### **💧 Stage 2: Base Preparation**
+#### **Stage 2: Base Preparation**
 
 - **Location**: Alchemy Table (same station)
 - **Action**:
     1. Combine water + any herbs → Let steep for **1-2 in-game days**.
     2. Add processed ingredient (e.g., heart) to the infusion.
 
-#### **🔥 Stage 3: Final Brewing**
+#### **Stage 3: Final Brewing**
 
 - **Location**: Cauldron (new workstation)
 - **Action**
     1. Transfer infusion to cauldron.
     2. **Mouse-controlled stirring** while **monitoring temperature** to avoid burning.
 
-#### **🌐 Scene Flow**
+#### **Scene Flow**
 - **Full-screen view** switches between:
     - Alchemy Table (Stages 1-2)
     - Cauldron (Stage 3)
 
 ## **🎒 Inventory System**
-#### **👖 Pocket Structure**
+#### **Pocket Structure**
 
 - **Two physical pockets**:
     - `LEFT POCKET` → Displayed on **left screen edge**.
@@ -81,7 +81,7 @@ Amaze has rather complicated potion making system. It goes through 3 stages.
 - **Interaction**:  
     Clicking a pocket opens **exclusive menu** showing _only its contents_.
 
-#### **📦 Item Behavior**
+#### **Item Behavior**
 
 - **Placement**:
     - Items **do not snap to grid**.
