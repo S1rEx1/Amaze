@@ -38,7 +38,7 @@ Exit to **Winter** section by:
 _"i practically have no info to share yet :)"_
 
 **Core Mechanic**:
-- **Cold Damage** → Instantly kills player without `Potion of Cold Immunity`.
+- **Cold Damage** → Little by little kills player without `Potion of Cold Immunity`.
 
 
 ## **🧪POTION BREWING SYSTEM**
