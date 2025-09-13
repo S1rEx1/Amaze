@@ -18,3 +18,4 @@
 *.userprefs
 .vscode/
 .idea/
+/prompts
