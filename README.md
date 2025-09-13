@@ -1,92 +1,124 @@
 # 🔮 Amaze - Survival Maze Game
-## todo after MVP
-- [ ] Generating procedural mazes
-- [ ] Hunger/Thirst System
-- [ ] Dynamic change of day and night
-- [ ] Arize ???
-- [ ] Potions
-- [ ] Library ???
-- [ ] Damn hardcode
 
-"Find the Exit. If It Exists." - by somebody
+## Find the Exit. If It Exists.
 
-## 🔥**MVP**
+Welcome to your new reality - cold, shifting walls and the creeping realization that nothing here wants you to leave. The rules are simple: keep moving, keep breathing, and try not to wonder what happened to the others who came before you.
+
+### What Awaits You
+
 **CORE COMPONENTS:**
-1. **Two Playable Sections**:
-    - `tutorial`
-    - `winter`
-2. **Simple `potion` System**
-3. **Physics-based `inventory`**
 
-## ❄️**SECTIONS**
+1. **Two zones of existence** (the others remain...unfinished. Or hidden):
+    
+    - `tutorial` - the last comforting lie
+        
+    - `winter` - where the maze begins to show its true nature
+        
+2. **Potion system** - your only defense against what lurks in the dark
+    
+3. **Physics-based inventory** - where every item might be your last
+    
 
-The labyrinth is divided into **4 conceptual zones**:  
-**Tutorial, Winter, ~~Music~~, ~~Darkness~~.**  
-_(Strikethrough = tentative/unconfirmed)_
+## ❄️**ZONES OF NO RETURN**
+
+The maze reveals its secrets reluctantly. What we know:
 
 ### **Tutorial**
 
-_"Tutorial section is a.... tutorial (sorry for that <3)"_
-**Completion Condition**:  
-Exit to **Winter** section by:
-1. Standard tutorial (WASD/brewing basics, etc).
-2. Solving a **multi-path puzzle** with help from _"one strange gnome"_ 🙃.
-3. that's it
+"Your first and last taste of safety"  
+**Exit Condition**:  
+Find the passage to **Winter** by:
+
+1. Learning basic movement (WASD) and brewing fundamentals
+    
+2. Solving a **multi-path puzzle** with help from "one strange gnome" 🙃
+    
+3. ...if you're lucky
+    
 
 ### **Winter**
 
-_"i practically have no info to share yet :)"_
+"Information remains scarce. Those who survive rarely speak of it"
 
-**Core Mechanic**:
-- **Cold Damage** → Little by little kills player without `Potion of Cold Immunity`.
+**Core Threat**:
 
+- **The cold kills** → Slowly, relentlessly, without the Potion of Cold Immunity.
+    
 
-## **🧪POTION BREWING SYSTEM**
+## **🧪ALCHEMY SYSTEM**
 
-Amaze has rather complicated potion making system. It goes through 3 stages.
+Here, potion-making isn't science - it's desperate ritual. Three stages between life and whatever comes after.
+
 #### **Stage 1: Ingredient Processing**
 
 - **Location**: Alchemy Table
+    
 - **Action**:  
-    Take a raw ingredient (e.g., a frog) → Gut it → Extract specific part (e.g., heart).  
+    Take a raw ingredient → Prepare it properly → Extract what you need  
     _Example: "Frog → Processed → Frog Heart"_
+    
 
 #### **Stage 2: Base Preparation**
 
-- **Location**: Alchemy Table (same station)
+- **Location**: Alchemy Table
+    
 - **Action**:
-    1. Combine water + any herbs → Let steep for **1-2 in-game days**.
-    2. Add processed ingredient (e.g., heart) to the infusion.
+    
+    1. Combine water + herbs → Steep for **1-2 in-game(or not...) days**
+        
+    2. Add processed ingredient to the mixture
+        
+    3. Wait. And hope.
+        
 
 #### **Stage 3: Final Brewing**
 
-- **Location**: Cauldron (new workstation)
-- **Action**
-    1. Transfer infusion to cauldron.
-    2. **Mouse-controlled stirring** while **monitoring temperature** to avoid burning.
+- **Location**: Cauldron
+    
+- **Action**:
+    
+    1. Transfer mixture to cauldron
+        
+    2. **Mouse-controlled stirring** while **watching the temperature**
+        
+    3. One mistake ruins everything
+        
 
 #### **Scene Flow**
+
 - **Full-screen view** switches between:
+    
     - Alchemy Table (Stages 1-2)
+        
     - Cauldron (Stage 3)
+        
 
 ## **🎒 Inventory System**
+
 #### **Pocket Structure**
 
 - **Two physical pockets**:
-    - `LEFT POCKET` → Displayed on **left screen edge**.
-    - `RIGHT POCKET` → Displayed on **right screen edge**.
-        (no damn way, huh)
-
+    
+    - `LEFT POCKET` → Displayed on **left screen edge**
+        
+    - `RIGHT POCKET` → Displayed on **right screen edge**
+        
 - **Interaction**:  
-    Clicking a pocket opens **exclusive menu** showing _only its contents_.
+    Clicking a pocket reveals **only what's inside that pocket**
+    
 
 #### **Item Behavior**
 
 - **Placement**:
-    - Items **do not snap to grid**.
-    - Maintain **rotation/orientation** from when player dropped them.
-
+    
+    - Items **maintain their exact position and rotation**
+        
+    - No convenient grids or snapping
+        
 - **Physics**:
-    - **Weak gravity** affects items (e.g., slight settling/movement).
-    - **Risk mechanic**: While sprinting → Small RNG chance for item to **fall out** of pocket.
+    
+    - **Gravity** affects items
+        
+    - **Sprinting risk**: Small chance items may **fall out** of pockets
+        
+    -  Everything you carry can be **lost**

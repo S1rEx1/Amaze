@@ -49,18 +49,13 @@
     <Analyzer Include="/home/sirex/Amaze/Library/PackageCache/com.unity.dt.app-ui@7b87c8225c06/Runtime/SourceGenerators/netstandard2.0/EnumToLowerCase.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/NPC/NPCDialogue.cs" />
-    <Compile Include="Assets/Scripts/UI/UI_PocketInventory.cs" />
-    <Compile Include="Assets/Scripts/Player/PlayerCollisionHandler.cs" />
-    <Compile Include="Assets/Scripts/UI/UI_DialogueWindows.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/SceneLoader.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/SceneTransitionTester.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/PlayerDataManager.cs" />
     <Compile Include="Assets/Scripts/Player/CameraFollow.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/AlchemySystem.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerMovement.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/Dynamite.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/DoorLock.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/ColdZone.cs" />
-    <Compile Include="Assets/Scripts/UI/UI_Manager.cs" />
-    <Compile Include="Assets/Scripts/NPC/TutorialGnome.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/GameSetupChecker.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/SceneController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
